@@ -1,0 +1,43 @@
+body{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    font-style: italic;
+    font-size: 50px;
+    margin-top: -1px;
+    margin-bottom: -1px;
+}
+.box{
+    border: 5px solid black;
+    height: 300px;
+    width: 300px; 
+    text-align: center;
+    border-radius: 20px;
+    background-color: aqua;
+}
+.n{
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.button{
+    width: 50px;
+    height: 50px;
+    margin: 10px 10px 10px 10px;
+    font-size: 50px;
+    border-radius: 10px;
+    border: 0px;
+
+}
+.b1,.b4{
+    padding-bottom: 50px;
+}
+#result{
+    font-size:30px ;
+}

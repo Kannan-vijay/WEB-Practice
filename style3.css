@@ -1,0 +1,76 @@
+.boxes{
+    display: grid;
+    grid-template-columns: repeat(3,auto); 
+    /* grid-template-rows: repeat(4,100px);  */
+    /* gap: 10px; */
+    
+    
+}
+
+.boxes div{
+    background-color: aqua;
+    font-size: 50px;
+    color: black;
+    display: grid;
+    justify-content: center; 
+    align-items: center;
+    border: 3px solid black;
+   
+}
+.b1{
+    grid-column: span 3 ;
+}
+.b5{
+    grid-column: span 3;
+}
+.b2,.b3,.b4{
+    height: 400px;
+}
+
+
+
+
+
+
+
+/* .box{
+    background-color: blue;
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    background: radial-gradient(blue,green,yellow,pink,red);
+} */
+
+/* 
+ul{
+    list-style-type: circle;
+    list-style-position: inside;
+}
+ol{
+    list-style: lower-alpha;
+}
+table{
+    width: 400px;
+    margin: auto;
+    border-spacing: 5px 10px;
+    border-collapse: collapse;
+    
+}
+th{
+    text-transform: uppercase;
+    text-align: left;
+    border-bottom: 5px solid black;
+    padding: 15px;
+}
+td{
+    padding: 15px;
+    border: 2px solid black;
+    
+}
+.age{
+    text-align: center;
+}
+tr:nth-child(even){
+    background-color: aquamarine;
+    
+} */
